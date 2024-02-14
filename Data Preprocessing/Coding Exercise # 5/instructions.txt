@@ -1,0 +1,17 @@
+Coding exercise 5: Feature scaling for Machine Learning
+
+1. Import the necessary libraries for data preprocessing, including the StandardScaler and train_test_split classes.
+
+2. Load the "Wine Quality Red" dataset into a pandas DataFrame. You can use the pd.read_csv function for this. Make sure you set the correct delimeter for the file.
+
+3. Split your dataset into an 80-20 training-test set. Set random_state to 42 to ensure reproducible results.
+
+4. Create an instance of the StandardScaler class.
+
+5 .Fit the StandardScaler on features from the training set, excluding the target variable 'Quality'.
+
+6. Use the "fit_transform" method of the StandardScaler object on the training dataset.
+
+7. Apply the "transform" method of the StandardScaler object on the test dataset.
+
+8. Print your scaled training and test datasets to verify the feature scaling process.
